@@ -1,0 +1,12 @@
+{
+  "name": "reconcileops-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ReconcileOps API and state-reconciliation engine",
+  "scripts": {
+    "test": "node --test \"test/unit/*.test.js\"",
+    "start": "node src/server.js"
+  },
+  "engines": { "node": ">=20" }
+}
